@@ -36,11 +36,6 @@
             <version>2.44.0</version>
         </dependency>
         <dependency>
-            <groupId>com.exampletestcontianers.app</groupId>
-            <artifactId>testcontianers-app</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.21</version>

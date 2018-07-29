@@ -6,12 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="testcontianersapp" />
+        <module name="testcontianers-app" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="seleniumjava" target="1.5" />
-      <module name="testcontianersapp" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

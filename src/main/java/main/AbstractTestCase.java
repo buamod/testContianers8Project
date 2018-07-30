@@ -31,7 +31,7 @@ public class AbstractTestCase {
 
     @AfterClass
     protected void cleanUpContainer(){
-//        chrome.stop();
+        chrome.stop();
     }
 }
 

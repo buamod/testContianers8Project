@@ -1,10 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="TestNG" verbose="1" parallel="false" thread-count="2"
-    data-provider-thread-count="3">
+<suite name="TestNG">
   <test name="Default tests">
     <classes>
-      <class name="test.defaultmethods.DefaultMethodTest"/>
+      <class name="main.TestUrl"/>
+      <class name="main.AssertTrue"/>
+      <class name="main.AssertEquals"/>
     </classes>
   </test>
 

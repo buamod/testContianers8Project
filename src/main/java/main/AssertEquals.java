@@ -1,8 +1,8 @@
 package main;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testcontainers.containers.BrowserWebDriverContainer;
+import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 

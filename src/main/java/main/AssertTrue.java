@@ -1,9 +1,7 @@
 package main;
-import org.junit.Test;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testcontainers.containers.BrowserWebDriverContainer;
-
-import java.io.IOException;
+import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 import static org.rnorth.visibleassertions.VisibleAssertions.assertTrue;
@@ -11,7 +9,7 @@ import static org.rnorth.visibleassertions.VisibleAssertions.assertTrue;
 public class AssertTrue extends AbstractTestCase {
 
     @Test
-    public void simpleExploreTest() throws IOException {
+    public void simpleExploreTest(){
         BrowserWebDriverContainer chrome = getChrome();
         RemoteWebDriver driver = setupDriver(chrome);
         driver.get("http://en.wikipedia.org/wiki/Randomness");
